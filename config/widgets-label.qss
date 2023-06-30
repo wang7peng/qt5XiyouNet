@@ -1,0 +1,47 @@
+QPushButton {
+   body {
+      background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #f4ffc0, stop: 1 #ffdc70);
+    }
+    .a{
+      width:200px;
+      height:200px;
+      position:relative;
+      background: #fff;
+      overflow: hidden;
+    }
+    .b{
+      width:100px;
+      height:100px;
+      position: absolute;
+      /*background: green;*/
+      top:-50px;
+      right:-50px;
+      transform: rotate(45deg);
+    }
+    .b span{
+      position: absolute;
+      bottom:0;
+      display: block;
+      font-size:16px;
+      color:#fff;
+      background: #36A8FF;
+      width:100px;
+      text-align: center;
+    }
+}
+QWidget::separator{
+    background: yellow;
+    height: 3px;
+}
+QWidget::separator:pressed {
+    background: red;
+}
+
+QProgressBar {
+    border-radius: 5px;
+}
+QProgressBar::chunk {
+    background-color: #05BBCC;
+    width: 20px;
+    text-align: center;
+}

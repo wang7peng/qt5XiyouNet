@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>lib/bash.c</file>
+        <file>lib/picturebox.cpp</file>
+        <file>lib/picturebox.h</file>
+        <file>lib/xhpcmd.c</file>
+        <file>lib/xhpcmd.h</file>
+        <file>home.cpp</file>
+        <file>home.h</file>
+        <file>main.cpp</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,17 @@
+/* 菜单和导航栏假装成一个整体*/
+QMenuBar#menuBar {
+    background-color: rgb(238,212, 230);
+}
+QFrame#navigationBar{
+    background-color: rgb(238,212, 230);
+}
+
+QSplitter#splitterInLevel, #splitterInTabTree{
+ /*   background-image: url(:/appLogo/images/bg.jpg); */
+    background-position: top right;
+    background-repeat: repeat-xy;
+}
+
+QToolButton#btnHome::hover,#btnComm::hover,#btnSearch::hover,#btnConfig::hover {
+    background-color: #DB6073;
+}

@@ -1,0 +1,31 @@
+<RCC>
+    <qresource prefix="/buttonLogo">
+        <file alias="btnSearch">images/analysis_logo.png</file>
+        <file>images/c_blue.png</file>
+        <file>images/c_green.png</file>
+        <file>images/c_purple.png</file>
+        <file>images/c_red.png</file>
+        <file>images/c_yellow.png</file>
+        <file>images/comm_logo.png</file>
+        <file>images/home_logo.png</file>
+        <file>images/customize.png</file>
+    </qresource>
+    <qresource prefix="/appLogo">
+        <file>images/favicon.ico</file>
+        <file>images/ubuntu_logo.png</file>
+        <file alias="Ltd">images/ltd_xhp.png</file>
+        <file>images/bg.jpg</file>
+        <file>images/setup3d.png</file>
+        <file>images/setup.png</file>
+        <file>images/xiyou.webp</file>
+    </qresource>
+    <qresource prefix="/Object">
+        <file alias="DOgod">images/DOgod.png</file>
+        <file alias="unknown">images/mansion.png</file>
+        <file alias="DOmonster">images/DOmonster.png</file>
+    </qresource>
+    <qresource prefix="/win">
+        <file>images/bg_sun.png</file>
+        <file>images/bg_sky.png</file>
+    </qresource>
+</RCC>
